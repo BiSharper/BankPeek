@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\libs\BiSharper\src\BiSharper\BiSharper.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Terminal.Gui" Version="2.0.0-pre.201" />
+    </ItemGroup>
+
+</Project>

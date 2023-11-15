@@ -1,0 +1,3 @@
+[submodule "libs/BiSharper"]
+	path = libs/BiSharper
+	url = https://github.com/FlipperPlz/BiSharper

@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CB9A8AD7-D247-4049-BC4D-CC6771F5351C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libs", "libs", "{8ADCE645-5E82-4E85-9A0F-F21EF1ED0C02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankPeek", "src\BankPeek\BankPeek.csproj", "{62E01BCB-5DB0-4D76-99B8-7C3AD040BF72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiSharper", "libs\BiSharper\src\BiSharper\BiSharper.csproj", "{D9239520-94BC-4188-B315-C74D70CD4FA8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{62E01BCB-5DB0-4D76-99B8-7C3AD040BF72} = {CB9A8AD7-D247-4049-BC4D-CC6771F5351C}
+		{D9239520-94BC-4188-B315-C74D70CD4FA8} = {8ADCE645-5E82-4E85-9A0F-F21EF1ED0C02}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62E01BCB-5DB0-4D76-99B8-7C3AD040BF72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62E01BCB-5DB0-4D76-99B8-7C3AD040BF72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62E01BCB-5DB0-4D76-99B8-7C3AD040BF72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62E01BCB-5DB0-4D76-99B8-7C3AD040BF72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9239520-94BC-4188-B315-C74D70CD4FA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9239520-94BC-4188-B315-C74D70CD4FA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9239520-94BC-4188-B315-C74D70CD4FA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9239520-94BC-4188-B315-C74D70CD4FA8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

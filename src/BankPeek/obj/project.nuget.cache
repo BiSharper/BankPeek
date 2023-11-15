@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "DxQWHhMClYfH4E0gEQXQAMhklHKO6KFpw8cb1egjr2lljV1bSgs6LKuJocdDwK2O7dUXGYyKC0rngE/HuNKNQQ==",
+  "success": true,
+  "projectFilePath": "E:\\projects\\charp\\BankPeek\\src\\BankPeek\\BankPeek.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ryann\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\3.1.6\\microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",
+    "C:\\Users\\ryann\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
+    "C:\\Users\\ryann\\.nuget\\packages\\system.io.abstractions\\19.2.69\\system.io.abstractions.19.2.69.nupkg.sha512",
+    "C:\\Users\\ryann\\.nuget\\packages\\system.management\\7.0.2\\system.management.7.0.2.nupkg.sha512",
+    "C:\\Users\\ryann\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\ryann\\.nuget\\packages\\system.text.json\\7.0.3\\system.text.json.7.0.3.nupkg.sha512",
+    "C:\\Users\\ryann\\.nuget\\packages\\terminal.gui\\2.0.0-pre.201\\terminal.gui.2.0.0-pre.201.nupkg.sha512",
+    "C:\\Users\\ryann\\.nuget\\packages\\testableio.system.io.abstractions\\19.2.69\\testableio.system.io.abstractions.19.2.69.nupkg.sha512",
+    "C:\\Users\\ryann\\.nuget\\packages\\testableio.system.io.abstractions.wrappers\\19.2.69\\testableio.system.io.abstractions.wrappers.19.2.69.nupkg.sha512",
+    "C:\\Users\\ryann\\.nuget\\packages\\wcwidth\\1.0.0\\wcwidth.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
