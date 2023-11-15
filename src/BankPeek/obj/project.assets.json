@@ -199,6 +199,19 @@
         "runtime": {
           "bin/placeholder/BiSharper.dll": {}
         }
+      },
+      "BiSharper.Interoperability/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Terminal.Gui": "2.0.0-pre.201"
+        },
+        "compile": {
+          "bin/placeholder/BiSharper.Interoperability.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BiSharper.Interoperability.dll": {}
+        }
       }
     }
   },
@@ -491,13 +504,19 @@
     },
     "BiSharper/1.0.0": {
       "type": "project",
-      "path": "../../libs/BiSharper/src/BiSharper/BiSharper.csproj",
-      "msbuildProject": "../../libs/BiSharper/src/BiSharper/BiSharper.csproj"
+      "path": "../../../../BiSharper/BiSharper.csproj",
+      "msbuildProject": "../../../../BiSharper/BiSharper.csproj"
+    },
+    "BiSharper.Interoperability/1.0.0": {
+      "type": "project",
+      "path": "../../../../BiSharper.Interoperability/BiSharper.Interoperability.csproj",
+      "msbuildProject": "../../../../BiSharper.Interoperability/BiSharper.Interoperability.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "BiSharper >= 1.0.0",
+      "BiSharper.Interoperability >= 1.0.0",
       "Terminal.Gui >= 2.0.0-pre.201"
     ]
   },
@@ -508,11 +527,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\projects\\charp\\BankPeek\\src\\BankPeek\\BankPeek.csproj",
+      "projectUniqueName": "E:\\projects\\csharp\\BiSharper\\src\\modules\\BankPeek\\src\\BankPeek\\BankPeek.csproj",
       "projectName": "BankPeek",
-      "projectPath": "E:\\projects\\charp\\BankPeek\\src\\BankPeek\\BankPeek.csproj",
+      "projectPath": "E:\\projects\\csharp\\BiSharper\\src\\modules\\BankPeek\\src\\BankPeek\\BankPeek.csproj",
       "packagesPath": "C:\\Users\\ryann\\.nuget\\packages\\",
-      "outputPath": "E:\\projects\\charp\\BankPeek\\src\\BankPeek\\obj\\",
+      "outputPath": "E:\\projects\\csharp\\BiSharper\\src\\modules\\BankPeek\\src\\BankPeek\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -535,8 +554,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "E:\\projects\\charp\\BankPeek\\libs\\BiSharper\\src\\BiSharper\\BiSharper.csproj": {
-              "projectPath": "E:\\projects\\charp\\BankPeek\\libs\\BiSharper\\src\\BiSharper\\BiSharper.csproj"
+            "E:\\projects\\csharp\\BiSharper\\src\\BiSharper.Interoperability\\BiSharper.Interoperability.csproj": {
+              "projectPath": "E:\\projects\\csharp\\BiSharper\\src\\BiSharper.Interoperability\\BiSharper.Interoperability.csproj"
+            },
+            "E:\\projects\\csharp\\BiSharper\\src\\BiSharper\\BiSharper.csproj": {
+              "projectPath": "E:\\projects\\csharp\\BiSharper\\src\\BiSharper\\BiSharper.csproj"
             }
           }
         }

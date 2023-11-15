@@ -8,11 +8,12 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\libs\BiSharper\src\BiSharper\BiSharper.csproj" />
+      <PackageReference Include="Terminal.Gui" Version="2.0.0-pre.201" />
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="Terminal.Gui" Version="2.0.0-pre.201" />
+      <ProjectReference Include="..\..\..\..\BiSharper.Interoperability\BiSharper.Interoperability.csproj" />
+      <ProjectReference Include="..\..\..\..\BiSharper\BiSharper.csproj" />
     </ItemGroup>
 
 </Project>

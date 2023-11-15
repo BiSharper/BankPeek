@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DxQWHhMClYfH4E0gEQXQAMhklHKO6KFpw8cb1egjr2lljV1bSgs6LKuJocdDwK2O7dUXGYyKC0rngE/HuNKNQQ==",
+  "dgSpecHash": "qmOig4KWIC7caWYBBseI498sJIgmHj+NYpUTWZxrJX56mxNcaCQAnG1rMVLjECvBDhcWv15BoKeEjBq0FItQ2w==",
   "success": true,
-  "projectFilePath": "E:\\projects\\charp\\BankPeek\\src\\BankPeek\\BankPeek.csproj",
+  "projectFilePath": "E:\\projects\\csharp\\BiSharper\\src\\modules\\BankPeek\\src\\BankPeek\\BankPeek.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ryann\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\3.1.6\\microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",
     "C:\\Users\\ryann\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
