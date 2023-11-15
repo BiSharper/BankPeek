@@ -504,13 +504,13 @@
     },
     "BiSharper/1.0.0": {
       "type": "project",
-      "path": "../../../../BiSharper/BiSharper.csproj",
-      "msbuildProject": "../../../../BiSharper/BiSharper.csproj"
+      "path": "../../../../library/BiSharper/BiSharper.csproj",
+      "msbuildProject": "../../../../library/BiSharper/BiSharper.csproj"
     },
     "BiSharper.Interoperability/1.0.0": {
       "type": "project",
-      "path": "../../../../BiSharper.Interoperability/BiSharper.Interoperability.csproj",
-      "msbuildProject": "../../../../BiSharper.Interoperability/BiSharper.Interoperability.csproj"
+      "path": "../../../../library/BiSharper.Interoperability/BiSharper.Interoperability.csproj",
+      "msbuildProject": "../../../../library/BiSharper.Interoperability/BiSharper.Interoperability.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -554,11 +554,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "E:\\projects\\csharp\\BiSharper\\src\\BiSharper.Interoperability\\BiSharper.Interoperability.csproj": {
-              "projectPath": "E:\\projects\\csharp\\BiSharper\\src\\BiSharper.Interoperability\\BiSharper.Interoperability.csproj"
+            "E:\\projects\\csharp\\BiSharper\\src\\library\\BiSharper.Interoperability\\BiSharper.Interoperability.csproj": {
+              "projectPath": "E:\\projects\\csharp\\BiSharper\\src\\library\\BiSharper.Interoperability\\BiSharper.Interoperability.csproj"
             },
-            "E:\\projects\\csharp\\BiSharper\\src\\BiSharper\\BiSharper.csproj": {
-              "projectPath": "E:\\projects\\csharp\\BiSharper\\src\\BiSharper\\BiSharper.csproj"
+            "E:\\projects\\csharp\\BiSharper\\src\\library\\BiSharper\\BiSharper.csproj": {
+              "projectPath": "E:\\projects\\csharp\\BiSharper\\src\\library\\BiSharper\\BiSharper.csproj"
             }
           }
         }
