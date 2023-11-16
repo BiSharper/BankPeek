@@ -4,76 +4,8 @@
     "E:\\projects\\csharp\\BiSharper\\src\\modules\\BankPeek\\src\\BankPeek\\BankPeek.csproj": {}
   },
   "projects": {
-    "E:\\projects\\csharp\\BiSharper\\src\\library\\BiSharper.Interoperability\\BiSharper.Interoperability.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "E:\\projects\\csharp\\BiSharper\\src\\library\\BiSharper.Interoperability\\BiSharper.Interoperability.csproj",
-        "projectName": "BiSharper.Interoperability",
-        "projectPath": "E:\\projects\\csharp\\BiSharper\\src\\library\\BiSharper.Interoperability\\BiSharper.Interoperability.csproj",
-        "packagesPath": "C:\\Users\\ryann\\.nuget\\packages\\",
-        "outputPath": "E:\\projects\\csharp\\BiSharper\\src\\library\\BiSharper.Interoperability\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\ryann\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net7.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://www.myget.org/F/disqord/api/v3/index.json": {}
-        },
-        "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
-            "projectReferences": {}
-          }
-        }
-      },
-      "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
-          "dependencies": {
-            "Terminal.Gui": {
-              "target": "Package",
-              "version": "[2.0.0-pre.201, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "runtime.win-x64.Microsoft.DotNet.ILCompiler",
-              "version": "[7.0.7, 7.0.7]"
-            }
-          ],
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
     "E:\\projects\\csharp\\BiSharper\\src\\library\\BiSharper\\BiSharper.csproj": {
-      "version": "1.0.0",
+      "version": "0.1.0",
       "restore": {
         "projectUniqueName": "E:\\projects\\csharp\\BiSharper\\src\\library\\BiSharper\\BiSharper.csproj",
         "projectName": "BiSharper",
@@ -92,10 +24,12 @@
         ],
         "originalTargetFrameworks": [
           "net7.0",
-          "net7.0-windows"
+          "net7.0-windows",
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://www.myget.org/F/disqord/api/v3/index.json": {}
         },
@@ -106,6 +40,10 @@
           },
           "net7.0-windows7.0": {
             "targetAlias": "net7.0-windows",
+            "projectReferences": {}
+          },
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -134,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         },
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
@@ -154,7 +92,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        },
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -167,6 +125,7 @@
         "packagesPath": "C:\\Users\\ryann\\.nuget\\packages\\",
         "outputPath": "E:\\projects\\csharp\\BiSharper\\src\\modules\\BankPeek\\src\\BankPeek\\obj\\",
         "projectStyle": "PackageReference",
+        "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
@@ -176,7 +135,9 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net7.0",
+          "net7.0-windows",
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -188,9 +149,22 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "E:\\projects\\csharp\\BiSharper\\src\\library\\BiSharper.Interoperability\\BiSharper.Interoperability.csproj": {
-                "projectPath": "E:\\projects\\csharp\\BiSharper\\src\\library\\BiSharper.Interoperability\\BiSharper.Interoperability.csproj"
-              },
+              "E:\\projects\\csharp\\BiSharper\\src\\library\\BiSharper\\BiSharper.csproj": {
+                "projectPath": "E:\\projects\\csharp\\BiSharper\\src\\library\\BiSharper\\BiSharper.csproj"
+              }
+            }
+          },
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {
+              "E:\\projects\\csharp\\BiSharper\\src\\library\\BiSharper\\BiSharper.csproj": {
+                "projectPath": "E:\\projects\\csharp\\BiSharper\\src\\library\\BiSharper\\BiSharper.csproj"
+              }
+            }
+          },
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
               "E:\\projects\\csharp\\BiSharper\\src\\library\\BiSharper\\BiSharper.csproj": {
                 "projectPath": "E:\\projects\\csharp\\BiSharper\\src\\library\\BiSharper\\BiSharper.csproj"
               }
@@ -228,7 +202,59 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        },
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "dependencies": {
+            "Terminal.Gui": {
+              "target": "Package",
+              "version": "[2.0.0-pre.201, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        },
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Terminal.Gui": {
+              "target": "Package",
+              "version": "[2.0.0-pre.201, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
